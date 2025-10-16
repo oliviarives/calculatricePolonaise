@@ -28,6 +28,6 @@ public class SimpleStack implements Stack{
      */
     public double pop() throws EmptyStackException{
         return this.stack.removeLast();
-        if ( ) /*size > 1, throws exceptions*/
+        if ( ) /*size > 1, throws exceptions */
     };
 }
