@@ -4,11 +4,9 @@ import static org.junit.Assert.*;
 
 import CalculatricePolonaise_Package.exceptions.DivideByZeroException;
 import CalculatricePolonaise_Package.exceptions.NotEnoughOperandsOnStackException;
-import Stack_Package.SimpleStack;
-import Stack_Package.Stack;
+import CalculatricePolonaise_Package.interfaces.Calc;
+import CalculatricePolonaise_Package.simples.NPICalc;
 import org.junit.Test;
-
-import java.util.EmptyStackException;
 
 public class NPICalcTest {
 

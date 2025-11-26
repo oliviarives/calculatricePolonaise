@@ -1,4 +1,4 @@
-package CalculatricePolonaise_Package;
+package CalculatricePolonaise_Package.interfaces;
 import CalculatricePolonaise_Package.exceptions.NotEnoughOperandsOnStackException;
 import CalculatricePolonaise_Package.exceptions.DivideByZeroException;
 public interface Calc { /**
