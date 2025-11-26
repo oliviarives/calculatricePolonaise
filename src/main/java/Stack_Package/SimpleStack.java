@@ -5,7 +5,6 @@ import java.util.EmptyStackException;
 
 public class SimpleStack implements Stack{
 
-
     ArrayList<Double> stack = new ArrayList<>();
     public boolean isEmpty(){
        return this.stack.isEmpty();

@@ -12,7 +12,6 @@ public class NPICalc implements Calc {
     @Override
     public void enterValue(double value) {
         this.stack.push(value);
-
     }
 
     @Override
