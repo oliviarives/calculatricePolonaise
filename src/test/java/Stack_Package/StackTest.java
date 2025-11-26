@@ -1,7 +1,0 @@
-package Stack_Package;
-
-import static org.junit.jupiter.api.Assertions.*;
-
-class StackTest {
-
-}
