@@ -1,4 +1,4 @@
-package Stack_Package;
+package stackpackage;
 
 import java.util.EmptyStackException;
 
