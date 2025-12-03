@@ -11,4 +11,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class RPNCalcUnitTest {
     RPNCalc calc = new RPNCalc(new SimpleStackStub());
 
+    public void testUnitAdd() throws NotEnoughOperandsOnStackException{
+
+    }
+
 }
