@@ -1,7 +1,10 @@
 package stackpackage;
 
 
+import java.util.ArrayList;
+
 public class SimpleStackStub implements Stack {
+    double item;
 
     @Override
     public boolean isEmpty() {
@@ -15,11 +18,12 @@ public class SimpleStackStub implements Stack {
 
     @Override
     public void push(double item) {
+        this.item = item;
     }
 
     @Override
     public double peek() {
-        return 10;
+        return item;
     }
 
     @Override

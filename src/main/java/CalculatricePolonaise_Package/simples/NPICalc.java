@@ -3,8 +3,8 @@ package CalculatricePolonaise_Package.simples;
 import CalculatricePolonaise_Package.exceptions.DivideByZeroException;
 import CalculatricePolonaise_Package.exceptions.NotEnoughOperandsOnStackException;
 import CalculatricePolonaise_Package.interfaces.Calc;
-import Stack_Package.SimpleStack;
-import Stack_Package.Stack;
+import stackpackage.SimpleStack;
+import stackpackage.Stack;
 
 public class NPICalc implements Calc {
     Stack stack = new SimpleStack();

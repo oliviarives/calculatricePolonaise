@@ -3,7 +3,6 @@ package rpnpackage;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
-
 import rpnpackage.exceptions.DivideByZeroException;
 import rpnpackage.exceptions.NotEnoughOperandsOnStackException;
 
@@ -29,7 +28,6 @@ public class RPNCalcTest {
         calc.enterValue(operand1);
         calc.enterValue(operand2);
         calc.add();
-
         assertEquals("The addition is correctly performed",operand1 + operand2,calc.displayValueOnTop(),0.001);
     }
 
