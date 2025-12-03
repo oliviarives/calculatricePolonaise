@@ -4,19 +4,19 @@ import java.util.EmptyStackException;
 
 public interface Stack {
     /**
-     * Tests if this stack is empty
+     * Teste si cette pile est vide
      */
     public boolean isEmpty(); /**
-     * Returns the number of items in this stack.
+     * Renvoie le nombre d'éléments dans cette pile.
      */
     public int getSize(); /**
      */
     public void push(double item); /**
-     * Looks at the object at the top of this stack without removing it from the stack.
+     * Regarde l'objet en haut de cette pile sans le retirer de la pile.
      */
     public double peek() throws EmptyStackException; /**
-     * Removes the object at the top of this stack and returns * that object as the value of this function.
-     * @throws EmptyStackException if this stack is empty.
+     * Supprime l'objet en haut de cette pile et renvoie * cet objet comme valeur de cette fonction.
+     * @throws EmptyStackException si cette pile est vide.
      */
     public double pop() throws EmptyStackException;
 }
